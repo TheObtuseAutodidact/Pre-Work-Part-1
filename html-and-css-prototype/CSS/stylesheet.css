@@ -40,3 +40,169 @@ h1 {
 */
 
 /* Your CSS code goes here */
+
+h5 { /* why give $50 */
+	text-align: left;
+	width: 82%;
+	margin: auto;
+	color: #24aadd;
+	font-weight: 400;
+	font-style: italic;
+	padding-bottom: 17px;
+	padding-top: 16px;
+}
+
+form {
+	margin-top: 12px;
+	width: 100%;
+	height: 35px;
+}
+
+input[type=text] {
+	border: 1px solid lightgrey;
+	color: grey;
+	font-size: 14px;
+}
+
+footer {
+	height: 45px;
+}
+
+.cap {
+	text-transform: capitalize;
+}
+
+.upcase {
+	text-transform: uppercase;
+}
+
+.bold {
+	font-weight: 600;
+}
+
+.grey-font {
+	color: #777;
+}
+
+.bottom-shadow {
+	box-shadow: 0 3px 2px -2px lightgrey;
+}
+
+.progress-bar-base {
+	postion: absolute;
+	top: 0;
+	left: 0;
+	background-color: #fafafa;
+	border: 1px lightgrey solid;
+	height: 10px;
+	width: 100%;
+	z-index: 0;
+}
+
+.progress-bar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 10px;
+	background-color: #f45d28;
+	width: 77%;
+	float:left;
+	z-index: 1;
+}
+
+.alert-message {
+	padding-top: 20px;
+	padding-bottom: 11px;
+}
+
+.alert {
+	color:  #f45d28;
+	font-weight: bold;
+}
+
+.content {
+		width: 40%;
+		margin: auto;
+}
+
+.level-tracker {
+	position: relative;
+	background-color: #424242;
+	color: white;
+	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+	font-size: 0.8em;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	border-radius: 4px;
+}
+
+.level-tracker:before {
+	/* modified from https://www.youtube.com/watch?v=SsGyRC2bou8 */
+	position: absolute;
+	content: "";
+	width: 20px;
+  height: 20px;
+	background-color: #424242;
+	bottom: 0;
+	left: 83%;
+	transform: translateX(-50%) rotate(45deg);
+	z-index: -1;
+}
+
+.donation-block {
+	position: relative;
+	border: 1px lightgrey solid;
+	margin-top: 0.8em;
+	font-size: 0.8em;
+	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+
+}
+
+.join-us {
+	width: 82%;
+	margin: auto;
+	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+	font-size: 0.9em;
+	text-align: left;
+	padding-bottom: 3px;
+}
+
+.form-element {
+	display: inline-block;
+	float: left;
+	border-radius: 3px;
+	height: 42px;
+	width: 95px;
+	margin-left: 19px;
+
+}
+
+.give-button {
+	background-color: #1CBC2C;
+	line-height: 42px;
+	text-align: center;
+  font-size: 15px;
+	color: white;
+
+}
+
+.bottom-button {
+	height: 34px;
+	width: 120px;
+	margin-top: 12px;
+	font-size: 12px;
+	line-height: 34px;
+  border-radius: 3px;
+	background-color: #fafafa;
+	border: 1px solid lightgrey;
+	color: gray;
+
+}
+
+.bookmark {
+	float: left;
+}
+
+.share {
+  float: right;
+}
